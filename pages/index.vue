@@ -1,8 +1,7 @@
 <template>
     <div>
         <main>
-        
-          <Header/>
+    
 
         <h1>\\ Welcome to the App! // </h1>  
         <p><br><br><br>  This will link you to the page with more content n stuff!  </p> 
@@ -24,8 +23,6 @@
         <p>Message is: {{ message }}</p>
 
         <h1> Movies: [Json file] </h1>
-
-           <Footer/>
 
         </main>
     </div>
@@ -63,7 +60,7 @@ export default Vue.extend({
 
 <!-- Adding styling  to a specific page helps with organizing, adding it to the config will change the global styling -->
 <style lang="scss">
-  body {
+  main {
       padding: 2.5%;
       text-align: center;
       font: 150% Helvetica, sans-serif;
